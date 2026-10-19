@@ -1,0 +1,57 @@
+.bungkus{
+	background: #CCC;
+	width: 900px;
+	margin: 10px auto;
+}
+
+.bungkus .atas{
+	background: #6CF;
+	padding: 5px;
+}
+
+.bungkus .badan{
+	height: auto;
+}
+
+.bungkus .badan .menu{
+	background: #6CF;
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+
+.bungkus .badan .menu ul{
+	margin: 5px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.bungkus .badan .menu ul li{
+	list-style-type: none;
+}
+
+.bungkus .badan .menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.bungkus .badan .menu ul li a:hover{
+	background: #FC0;
+}
+.bungkus .badan .isi{
+	height: 100%;
+	width: 80%;
+	float: left;
+	padding: 10px;
+}
+
+.bungkus .kosong{
+	clear: both;
+}
+
+.bungkus .bawah{
+	background: #6CF;
+	height: 40px;
+	padding: 15px;
+}
